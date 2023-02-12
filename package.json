@@ -1,0 +1,43 @@
+{
+  "originalAuthor": "Patrick Mooney",
+  "originalContributors": [
+    "Mark Cavage <mcavage@gmail.com>",
+    "Cody Peter Mello <cody.mello@joyent.com>"
+  ],
+  "name": "@ldapjs/dn",
+  "homepage": "https://github.com/ldapjs/dn",
+  "description": "API for handling LDAP distinguished name strings",
+  "version": "1.0.0-rc.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ldapjs/dn.git"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "@ldapjs/asn1": "2.0.0-rc.1",
+    "process-warning": "^2.1.0"
+  },
+  "devDependencies": {
+    "@fastify/pre-commit": "^2.0.2",
+    "eslint": "^8.34.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "tap": "^16.3.4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "lint:ci": "eslint .",
+    "test": "tap --no-coverage-report",
+    "test:cov": "tap",
+    "test:cov:html": "tap --coverage-report=html",
+    "test:watch": "tap -w --no-coverage-report"
+  },
+  "precommit": [
+    "lint",
+    "test"
+  ]
+}

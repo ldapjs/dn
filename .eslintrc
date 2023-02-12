@@ -1,0 +1,13 @@
+{
+  "parserOptions": {
+    "ecmaVersion": "latest"
+  },
+
+  "extends": [
+    "standard"
+  ],
+
+  "rules": {
+    "no-labels": ["error", {"allowLoop":  true}]
+  }
+}

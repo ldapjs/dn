@@ -1,0 +1,5 @@
+reporter: terse
+coverage-map: coverage-map.js
+
+files:
+  - 'lib/**/*.test.js'

@@ -1,0 +1,10 @@
+name: "CI"
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  call-core-ci:
+    uses: ldapjs/.github/.github/workflows/node-ci.yml@main
