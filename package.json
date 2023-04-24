@@ -7,7 +7,7 @@
   "name": "@ldapjs/dn",
   "homepage": "https://github.com/ldapjs/dn",
   "description": "API for handling LDAP distinguished name strings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "license": "MIT",
   "repository": {
     "type": "git",
